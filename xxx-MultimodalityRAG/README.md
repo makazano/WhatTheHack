@@ -44,5 +44,8 @@ In this hack you will be solving the common business problem that companies in t
 
 ## Contributors
 
+- Casey Kriutzfield
+- David Florez Fernandez
+- Esthela Gallardo
+- Manasa Ramalinga
 - Oscar Shimabukuro
-- Peter Was Here
