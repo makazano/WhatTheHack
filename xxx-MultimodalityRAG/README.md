@@ -9,24 +9,32 @@ In this scenario, we want to take it a step beyond and not only dealing with PDF
 
 In this hack you will be solving the common business problem that companies who rely on image data have. The magazine industry for example relies on asking questions about specific covers and how the different images may influence sales.
 
-1. Provision an IoT Hub
-2. Set up an IoT Edge device
-3. Bring Azure Sphere to your solution for scale and resiliency
+1. Master the art of the RAG Pattern while enhancing with multimodality.
+2. Efficiently query structured and unstructure data via voice commands.
+3. Build your own visualization app with Flask.
+4. Build your own visualization app with Flask.
 
 ## Challenges
 
 - Challenge 00: **[Prerequisites - Ready, Set, GO!](Student/Challenge-00.md)**
 	 - Prepare your workstation to work with Azure.
 - Challenge 01: **[Architecture Overview and Data Exploration](Student/Challenge-01.md)**
-	 - Description of challenge
+	 - Get ready to dive deep into the Architecture for this WTH.
+	 - Understand the core components of the architecture.
+	 - You will make an Exploratory Data Analysis of the dummy data that can be found on the /resources folder.
 - Challenge 02: **[Data Processing](Student/Challenge-02.md)**
-	 - Description of challenge
+	 - Create SQL table and insert Sales data.
+	 - Explore and upload the image files to Azure Data Lake Storage gen2.
+	 - Explore the speech-to-text API.
 - Challenge 03: **[Indexing with AI Search](Student/Challenge-03.md)**
-	 - Description of challenge
+	 - Integrated Vectorization for images
+	 - Learn about indexing strategies and types of search (semantic, keyword, hybrid, etc.)
 - Challenge 04: **[RAG with multimodality](Student/Challenge-04.md)**
-	 - Description of challenge
+	 - Revisit RAG Fundamentals
+	 - Adding a layer of complexity with Voice search
+	 - Chat with your Images
 - Challenge 05: **[Visualization Layer](Student/Challenge-05.md)**
-	 - Description of challenge
+	 - Build a Flask Web App that showcases query results from both structured and unstructured data combined.
 - Challenge 06: **[Title of Challenge](Student/Challenge-06.md)**
 	 - Description of challenge
 - Challenge 07: **[Title of Challenge](Student/Challenge-07.md)**
