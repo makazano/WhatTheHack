@@ -2,11 +2,12 @@
 
 ## Introduction
 
-The IoT Hack of the Century will take you on a whirlwind tour in the world of IoT and how it is being used in the modern world of mineral extraction in exotic locations like the Arctic and the wilds of South Africa.
+The Multimodality with RAG What The Hack is the next stepping stone after you've mastered the RAG Pattern. There is plenty of information regarding "Chat with your Data", but most of the time it is just the RAG Pattern over PDF. The most common scenario is going over a set of documents and ask questions about them. For example, if you have documentation about your company-specific insurance plan, you can build a chat-bot experience that enables you to ask relevant questions.
+In this scenario, we want to take it a step beyond and not only dealing with PDF documents. We want to introduce the concept of multimodality by enabling a user to ask a question using Speech-to-text and retrieve an answer that goes beyond a PDF. We want to be able to ask questions on images as well as SQL-like data. Imagine you want to ask questions about the performance of a specific asset and the information is on an image. We can ask something about the image and pair it with structured data to respond the query.
 
 ## Learning Objectives
 
-In this hack you will be solving the common business problem that companies in the mineral extraction industry face and how IoT solutions from Azure are brought to bare
+In this hack you will be solving the common business problem that companies who rely on image data have. The magazine industry for example relies on asking questions about specific covers and how the different images may influence sales.
 
 1. Provision an IoT Hub
 2. Set up an IoT Edge device
@@ -16,15 +17,15 @@ In this hack you will be solving the common business problem that companies in t
 
 - Challenge 00: **[Prerequisites - Ready, Set, GO!](Student/Challenge-00.md)**
 	 - Prepare your workstation to work with Azure.
-- Challenge 01: **[Title of Challenge](Student/Challenge-01.md)**
+- Challenge 01: **[Architecture Overview and Data Exploration](Student/Challenge-01.md)**
 	 - Description of challenge
-- Challenge 02: **[Title of Challenge](Student/Challenge-02.md)**
+- Challenge 02: **[Data Processing](Student/Challenge-02.md)**
 	 - Description of challenge
-- Challenge 03: **[Title of Challenge](Student/Challenge-03.md)**
+- Challenge 03: **[Indexing with AI Search](Student/Challenge-03.md)**
 	 - Description of challenge
-- Challenge 04: **[Title of Challenge](Student/Challenge-04.md)**
+- Challenge 04: **[RAG with multimodality](Student/Challenge-04.md)**
 	 - Description of challenge
-- Challenge 05: **[Title of Challenge](Student/Challenge-05.md)**
+- Challenge 05: **[Visualization Layer](Student/Challenge-05.md)**
 	 - Description of challenge
 - Challenge 06: **[Title of Challenge](Student/Challenge-06.md)**
 	 - Description of challenge
@@ -40,7 +41,8 @@ In this hack you will be solving the common business problem that companies in t
 - Your own Azure subscription with Owner access
 - Visual Studio Code
 - Azure CLI
-- An AVNET X231 device
+- Access to deploy Azure OpenAI Models (embeddings and GPT)
+
 
 ## Contributors
 
