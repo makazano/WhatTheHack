@@ -1,4 +1,4 @@
-# Challenge 03 - <Indexing with AI Search>
+# Challenge 03 - Indexing with AI Search
 
 [< Previous Challenge](./Challenge-02.md) - **[Home](../README.md)** - [Next Challenge >](./Challenge-04.md)
 
