@@ -1,4 +1,4 @@
-# Challenge 03 - <Title of Challenge>
+# Challenge 03 - <Indexing with AI Search>
 
 [< Previous Challenge](./Challenge-02.md) - **[Home](../README.md)** - [Next Challenge >](./Challenge-04.md)
 
@@ -6,21 +6,30 @@
 
 ## Pre-requisites (Optional)
 
-*Your hack's "Challenge 0" should cover pre-requisites for the entire hack, and thus this section is optional and may be omitted.  If you wish to spell out specific previous challenges that must be completed before starting this challenge, you may do so here.*
+- Azure AI Search resource for indexing and retrieving vectorized data.
+- A storage solution (e.g., Azure Blob Storage) to manage image datasets.
+- A Python environment with required libraries (`pip install -r requirements.txt`).
+- `.env` file containing the required credentials.
 
 ## Introduction
 
-*This section should provide an overview of the technologies or tasks that will be needed to complete the this challenge.  This includes the technical context for the challenge, as well as any new "lessons" the attendees should learn before completing the challenge.*
+Search engines have evolved from simple keyword-based retrieval to more sophisticated methods that leverage AI to enhance search accuracy. AI Search allows businesses to index and query diverse data types, including text and images, using semantic search.
 
-*Optionally, the coach or event host is encouraged to present a mini-lesson (with a PPT or video) to set up the context & introduction to each challenge. A summary of the content of that mini-lesson is a good candidate for this Introduction section*
-
-*For example:*
-
-When setting up an IoT device, it is important to understand how 'thingamajigs' work. Thingamajigs are a key part of every IoT device and ensure they are able to communicate properly with edge servers. Thingamajigs require IP addresses to be assigned to them by a server and thus must have unique MAC addresses. In this challenge, you will get hands on with a thingamajig and learn how one is configured.
+In this challenge, you will:
+- Learn how to **integrate vectorization for images** using pre-trained models.
+- Explore **different indexing strategies** such as **semantic search, keyword search, and hybrid search**.
+- Implement an **AI-powered retrieval system** to efficiently search image datasets.
 
 ## Description
 
-*This section should clearly state the goals of the challenge and any high-level instructions you want the students to follow. You may provide a list of specifications required to meet the goals. If this is more than 2-3 paragraphs, it is likely you are not doing it right.*
+By completing this challenge, you will:
+- Learn how to perform **integrated vectorization** for image data.
+- Understand and implement different **indexing strategies**.
+- Explore various types of **search methods**, including **semantic search, keyword search, and hybrid search**.
+- Gain hands-on experience in setting up AI Search for multimodal retrieval.
+
+To achieve this, you will work with sample images and vector embeddings, utilizing AI Search to retrieve relevant images based on query input. This will form the basis for integrating structured and unstructured data into future RAG-based applications.
+
 
 ***NOTE:** Do NOT use ordered lists as that is an indicator of 'step-by-step' instructions. Instead, use bullet lists to list out goals and/or specifications.*
 
@@ -34,66 +43,26 @@ When setting up an IoT device, it is important to understand how 'thingamajigs' 
 
 ***NOTE:** Any direct links to the What The Hack repo will be flagged for review during the review process by the WTH V-Team, including exception cases.*
 
-*Sample challenge text for the IoT Hack Of The Century:*
-
-In this challenge, you will properly configure the thingamajig for your IoT device so that it can communicate with the mother ship.
-
-You can find a sample `thingamajig.config` file in the `/ChallengeXX` folder of the Resources.zip file provided by your coach. This is a good starting reference, but you will need to discover how to set exact settings.
-
-Please configure the thingamajig with the following specifications:
-- Use dynamic IP addresses
-- Only trust the following whitelisted servers: "mothership", "IoTQueenBee" 
-- Deny access to "IoTProxyShip"
-
-You can view an architectural diagram of an IoT thingamajig here: [Thingamajig.PDF](/Student/Resources/Architecture.PDF?raw=true).
-
 ## Success Criteria
 
-*Success criteria goes here. The success criteria should be a list of checks so a student knows they have completed the challenge successfully. These should be things that can be demonstrated to a coach.* 
-
-*The success criteria should not be a list of instructions.*
-
-*Success criteria should always start with language like: "Validate XXX..." or "Verify YYY..." or "Show ZZZ..." or "Demonstrate you understand VVV..."*
-
-*Sample success criteria for the IoT sample challenge:*
-
-To complete this challenge successfully, you should be able to:
-- Verify that the IoT device boots properly after its thingamajig is configured.
-- Verify that the thingamajig can connect to the mothership.
-- Demonstrate that the thingamajic will not connect to the IoTProxyShip
+To successfully complete this challenge, you should be able to:
+- Verify that you have successfully **vectorized and indexed image data**.
+- Demonstrate the ability to **perform different types of searches (semantic, keyword, hybrid)**.
+- Show how different **indexing strategies** affect retrieval performance.
+- Validate that AI Search returns **relevant results** based on input queries.
 
 ## Learning Resources
 
-_List of relevant links and online articles that should give the attendees the knowledge needed to complete the challenge._
+- [Introduction to AI Search](https://learn.microsoft.com/en-us/azure/search/)
+- [Vector Search in Azure Cognitive Search](https://learn.microsoft.com/en-us/azure/search/vector-search-overview)
+- [Understanding Semantic Search](https://learn.microsoft.com/en-us/azure/search/semantic-search-overview)
 
-*Think of this list as giving the students a head start on some easy Internet searches. However, try not to include documentation links that are the literal step-by-step answer of the challenge's scenario.*
 
-***Note:** Use descriptive text for each link instead of just URLs.*
 
-*Sample IoT resource links:*
-
-- [What is a Thingamajig?](https://www.bing.com/search?q=what+is+a+thingamajig)
-- [10 Tips for Never Forgetting Your Thingamajic](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
-- [IoT & Thingamajigs: Together Forever](https://www.youtube.com/watch?v=yPYZpwSpKmA)
-
-## Tips
-
-*This section is optional and may be omitted.*
-
-*Add tips and hints here to give students food for thought. Sample IoT tips:*
-
-- IoTDevices can fail from a broken heart if they are not together with their thingamajig. Your device will display a broken heart emoji on its screen if this happens.
-- An IoTDevice can have one or more thingamajigs attached which allow them to connect to multiple networks.
 
 ## Advanced Challenges (Optional)
 
-*If you want, you may provide additional goals to this challenge for folks who are eager.*
-
-*This section is optional and may be omitted.*
-
-*Sample IoT advanced challenges:*
-
-Too comfortable?  Eager to do more?  Try these additional challenges!
-
-- Observe what happens if your IoTDevice is separated from its thingamajig.
-- Configure your IoTDevice to connect to BOTH the mothership and IoTQueenBee at the same time.
+If you want to push yourself further, try these additional challenges:
+- Experiment with **hybrid search**, combining keyword and semantic search.
+- Optimize your **vectorization pipeline** for better search accuracy.
+- Integrate AI Search with **structured data queries** for richer retrieval results.
