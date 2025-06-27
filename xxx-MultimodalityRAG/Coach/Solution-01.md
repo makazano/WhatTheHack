@@ -68,3 +68,8 @@ In more detail:
 - They may also mention possible **real-time updates** to the data or model.  
 
 - Finally, look out for any mention of **data governance or security**, especially since images may contain sensitive info or the sales data might be confidential.
+
+  ## Code
+  Please see indexing-imagevectoronly.pynb for suggested solution
+  
+
